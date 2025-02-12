@@ -159,6 +159,7 @@ menu a {
 
 .map_con1 {
     max-width: 1300px;
+    min-width: 1300px;
     margin: auto;
     width: 95%;
     display: flex;
@@ -390,18 +391,39 @@ menu a {
     background: black;
     padding: 3vw 0;
 }
-
-.map_con4_con {
+.map_con4_switch{
     width: 100%;
-    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 4vw;
 }
+.map_con4_switch_right,.map_con4_switch_left{
+    cursor: pointer;
+}
+.map_con4_switch_left i,.map_con4_switch_right i{
+    color: white;
+    font-size: 40px;
+    transition: all 0.3s;
+}
+.map_con4_switch_left i:hover{
+    transform: scale(1.2);
+}
+.map_con4_switch_right i:hover{
+    transform: scale(1.2);
+}
+.map_con4_con {
+    width: calc(100% - 300px);
+    overflow: hidden;
+}
+
 
 .map_con4_list {
     width: 300%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: all 0.3s;
+    /*grid-gap: 5%;*/
 }
 
 .map_con4_list > div {
@@ -448,9 +470,12 @@ menu a {
     font-size: 18px;
     color: white;
     text-decoration: none;
-    padding: 8px 24px;
+    padding: 10px 24px;
     transition: all 0.3s;
-    margin-top: 30px;
+    display: block;
+    width: 180px;
+    margin: 2vw auto 0 auto;
+    text-align: center;
 }
 
 .map_con4_btn:hover {
@@ -470,6 +495,9 @@ footer {
     font-size: 18px;
     text-align: center;
     padding: 40px 0;
+}
+footer a{
+    color: white;
 }
 
 /**home page end**/
