@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="map_header">
+    <a href="./stormmap.html" class="logo">CHAAC</a>
+    <menu>
+        <a href="./stormmap1.html">StormMap</a>
+        <a href="./forum.html">ThunderForum</a>
+        <a href="#">Myth & Science</a>
+        <a href="./ourreprt.html">OurReport</a>
+    </menu>
+    <a href="./login.html" class="login">Login</a>
+</header>
+<section class="forum_con">
+    <div class="forum_con_earth">
+        <img src="image/img9.png"/>
+        <div class="forum_text">
+            Here a globe is set up that can be dragged and rotated to introduce data
+        </div>
+
+        <div class="forum_icon1">
+            <img src="image/icon1.png"/>
+            <span>United Kingdom</span>
+        </div>
+        <div class="forum_icon2"><img src="image/icon1.png"/></div>
+        <div class="forum_icon3"><img src="image/icon1.png"/></div>
+        <div class="forum_icon4"><img src="image/icon1.png"/></div>
+        <div class="forum_icon5"><img src="image/icon1.png"/></div>
+        <div class="forum_icon6"><img src="image/icon1.png"/></div>
+    </div>
+</section>
+<script>
+    let forum_icon1 = document.querySelector('.forum_icon1')
+    forum_icon1.onclick = function () {
+        window.location.href = './forum2.html'
+    }
+</script>
+</body>
+</html>

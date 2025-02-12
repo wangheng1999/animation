@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StormMap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="map_header">
+    <a href="./stormmap.html" class="logo">CHAAC</a>
+    <menu>
+        <a href="./stormmap1.html">StormMap</a>
+        <a href="./forum.html">ThunderForum</a>
+        <a href="#">Myth & Science</a>
+        <a href="./ourreprt.html">OurReport</a>
+    </menu>
+    <a href="./login.html" class="login">Login</a>
+</header>
+<section class="map2_con">
+    <div class="map2_con_sm_title">Turn on your</div>
+    <div class="map_title">Lightning tracking</div>
+    <div class="map2_con_des">Locate your city, presenting you with exclusive lightning realities, so you can <br> learn more
+        about lightning and discover its unique charms.
+    </div>
+    <div class="map2_img_con">
+        <img src="image/img8.png"/>
+        <div class="map2_img_btn">
+            <div class="icon2"><img src="image/icon2.png"/></div>
+            <span>start</span>
+        </div>
+    </div>
+</section>
+<script>
+    let map2_img_btn = document.querySelector('.map2_img_btn')
+    map2_img_btn.onclick = function () {
+        window.location.href = './stormmap2.html'
+    }
+</script>
+</body>
+</html>

@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
-.home_con{
+
+.home_con {
     width: 100vw;
     height: 100vh;
 
@@ -18,7 +21,8 @@ img{
     position: relative;
     background: black;
 }
-.home_back{
+
+.home_back {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -26,9 +30,10 @@ img{
     background-size: cover;
     width: 100%;
     height: 100%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: all 0.6s;
 }
+
 /*.home_animation{*/
 /*    animation: example 0.3s forwards 1;*/
 /*}*/
@@ -62,7 +67,7 @@ img{
 /*        height: 60%;*/
 /*    }*/
 /*}*/
-.home_title{
+.home_title {
     font-family: "Cinzel", serif;
     font-size: 3vw;
     color: white;
@@ -71,14 +76,15 @@ img{
     transition: all 0.3s;
 }
 
-.home_btn{
+.home_btn {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 5%;
     z-index: 10;
 }
-.home_btn{
+
+.home_btn {
     color: #FFFFFF;
     font-family: "Rajdhani", serif;
     font-size: 24px;
@@ -86,17 +92,19 @@ img{
     cursor: pointer;
     transition: all 0.3s;
 }
-.home_btn:hover{
-    transform:translateX(-50%) scale(1.1);
+
+.home_btn:hover {
+    transform: translateX(-50%) scale(1.1);
 }
-.home_icon{
+
+.home_icon {
     width: 30px;
     margin: 10px auto 0 auto;
 }
 
 
 /**home page start**/
-header{
+header {
     width: 100%;
     padding: 20px 40px;
     background: black;
@@ -105,43 +113,51 @@ header{
     align-items: center;
     position: relative;
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
     font-family: "Rajdhani", serif;
 }
-menu a{
+
+menu a {
     margin: 0 10px;
     font-size: 18px;
 }
-.logo{
+
+.logo {
     font-family: "Cinzel", serif !important;
     font-size: 30px;
     font-weight: bold;
 }
-.login{
+
+.login {
     border: 1px solid white;
     padding: 8px 24px;
     font-size: 18px;
     transition: all 0.3s;
 }
-.login:hover{
+
+.login:hover {
     background: white;
     color: black;
 }
-.line{
+
+.line {
     width: 80%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
 }
-.map_con{
+
+.map_con {
     width: 100%;
     background: black;
     padding: 5vw 0;
 }
-.map_con1{
+
+.map_con1 {
     max-width: 1300px;
     margin: auto;
     width: 95%;
@@ -151,8 +167,9 @@ menu a{
     position: relative;
     padding: 3vw 0;
 }
-.map_con1_img1{
-    width: 80px;
+
+.map_con1_img1 {
+    width: 50px;
     height: 520px;
     background: url("./image/img2.png") no-repeat center;
     background-size: cover;
@@ -161,7 +178,8 @@ menu a{
     align-items: center;
     justify-content: center;
 }
-.map_con1_title{
+
+.map_con1_title {
     color: white;
     text-transform: uppercase;
     font-family: "Cinzel", serif !important;
@@ -173,14 +191,16 @@ menu a{
     width: 1300px;
     white-space: nowrap;
 }
-.map_con1_img2{
+
+.map_con1_img2 {
     width: 30%;
     position: absolute;
     bottom: 0;
     right: 0;
-    transform: translate(20%,0);
+    transform: translate(20%, 0);
 }
-.map_con2{
+
+.map_con2 {
     max-width: 1300px;
     margin: auto;
     width: 95%;
@@ -191,40 +211,47 @@ menu a{
     /*justify-content: center;*/
     /*position: relative;*/
 }
-.map_con2_text{
+
+.map_con2_text {
     text-align: center;
     color: white;
     font-family: "Rajdhani", serif;
     font-size: 18px;
 }
-.map_con2_img{
+
+.map_con2_img {
     width: 80px;
     margin: 20px auto;
 }
-.map_con2_con{
+
+.map_con2_con {
     width: 100%;
     padding: 4vw 0;
     background: #2D2D2D;
 }
-.map_title{
+
+.map_title {
     color: white;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: "Cinzel", serif !important;
     font-size: 80px;
     font-weight: bold;
     line-height: 150%;
     overflow: hidden;
     text-align: center;
-    width: 1300px;
+    max-width: 1300px;
+    width: 100%;
     white-space: nowrap;
 }
-.map_con2_con{
+
+.map_con2_con {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.map_con2_btn{
+
+.map_con2_btn {
     border: 1px solid white;
     font-family: "Rajdhani", serif;
     font-size: 18px;
@@ -234,15 +261,18 @@ menu a{
     transition: all 0.3s;
     margin-top: 30px;
 }
-.map_con2_btn:hover{
+
+.map_con2_btn:hover {
     background: white;
     color: black;
 }
-.map_con2_img2{
+
+.map_con2_img2 {
     width: 300px;
     margin: 20px auto;
 }
-.map_con3{
+
+.map_con3 {
     max-width: 1300px;
     margin: auto;
     width: 95%;
@@ -251,7 +281,8 @@ menu a{
     position: relative;
     overflow: hidden;
 }
-.map_con3_con1{
+
+.map_con3_con1 {
     width: 550px;
     height: 700px;
     margin: auto;
@@ -262,7 +293,27 @@ menu a{
     flex-direction: column;
     position: relative;
 }
-.map_con3_con1_title{
+
+.map_con3_con1_top_title {
+    color: white;
+    text-align: center;
+    font-family: "Rajdhani", serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    font-size: 18px;
+}
+
+.axe {
+    width: 25px;
+    margin: 0 20px;
+}
+
+.map_con3_con1_title {
     color: white;
     font-size: 100px;
     text-align: center;
@@ -270,7 +321,8 @@ menu a{
     font-family: "Cinzel", serif !important;
     margin-bottom: 40px;
 }
-.map_con3_btn{
+
+.map_con3_btn {
     border: 2px solid white;
     font-family: "Rajdhani", serif;
     font-size: 20px;
@@ -280,11 +332,13 @@ menu a{
     transition: all 0.3s;
     font-weight: bold;
 }
-.map_con3_btn:hover{
+
+.map_con3_btn:hover {
     background: white;
     color: black;
 }
-.map_con3_con1_list{
+
+.map_con3_con1_list {
     position: absolute;
     height: 10px;
     background: white;
@@ -293,7 +347,8 @@ menu a{
     transform: translateX(-50%);
     bottom: 0;
 }
-.map_con3_con2,.map_con3_con3{
+
+.map_con3_con2, .map_con3_con3 {
     position: absolute;
     left: 50%;
     top: 3vw;
@@ -310,44 +365,52 @@ menu a{
     font-family: "Cinzel", serif !important;
     transition: all 0.6s;
 }
-.map_con3:hover .map_con3_con2{
+
+.map_con3:hover .map_con3_con2 {
     left: 10%;
     top: 10vw;
     transform: translateX(-50%) rotate(-15deg);
 }
-.map_con3:hover .map_con3_con3{
+
+.map_con3:hover .map_con3_con3 {
     left: 90%;
     top: 10vw;
     transform: translateX(-50%) rotate(15deg);
 }
-.map_con3_img1{
+
+.map_con3_img1 {
     width: 300px;
     margin: 60px auto 0 auto;
 }
-.map_con4{
+
+.map_con4 {
     max-width: 1300px;
     margin: auto;
     width: 95%;
     background: black;
     padding: 3vw 0;
 }
-.map_con4_con{
+
+.map_con4_con {
     width: 100%;
     overflow-x: auto;
     margin-top: 4vw;
 }
-.map_con4_list{
+
+.map_con4_list {
     width: 300%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
-.map_con4_list>div{
+
+.map_con4_list > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.map_con4_list_left_text{
+
+.map_con4_list_left_text {
     padding: 50px 30px;
     color: #868686;
     background: #2D2D2D;
@@ -355,13 +418,15 @@ menu a{
     font-size: 18px;
     width: 250px;
 }
-.map_con4_list_left_title{
+
+.map_con4_list_left_title {
     font-size: 18px;
     font-family: "Rajdhani", serif;
     color: #999999;
     margin-top: 10px;
 }
-.map_con4_list_right_text{
+
+.map_con4_list_right_text {
     width: 200px;
     color: #868686;
     background: #2D2D2D;
@@ -369,13 +434,15 @@ menu a{
     font-size: 18px;
     padding: 10px;
 }
-.map_con4_list_right_des{
+
+.map_con4_list_right_des {
     font-family: "Rajdhani", serif !important;
     font-size: 16px;
     color: #868686;
     width: 500px;
 }
-.map_con4_btn{
+
+.map_con4_btn {
     border: 1px solid white;
     font-family: "Rajdhani", serif;
     font-size: 18px;
@@ -385,15 +452,18 @@ menu a{
     transition: all 0.3s;
     margin-top: 30px;
 }
-.map_con4_btn:hover{
+
+.map_con4_btn:hover {
     background: white;
     color: black;
 }
-.map_con4_img{
+
+.map_con4_img {
     width: 300px;
     margin: 3vw auto 0 auto;
 }
-footer{
+
+footer {
     background: #1A1A1A;
     color: white;
     font-family: "Rajdhani", serif;
@@ -401,6 +471,453 @@ footer{
     text-align: center;
     padding: 40px 0;
 }
+
 /**home page end**/
 
+/*map style start*/
+.map_header {
+    background: #2D2D2D;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
 
+.map2_con {
+    width: 100vw;
+    height: 100vh;
+    background: #2D2D2D;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.map2_con_sm_title {
+    color: white;
+    font-family: "Cinzel", serif !important;
+    font-size: 24px;
+}
+
+.map2_con_des {
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+.map2_img_con {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(90%);
+    transition: all 0.3s;
+}
+
+.map2_img_con:hover {
+    transform: translateY(50%);
+}
+
+.icon2 {
+    width: 20px;
+    margin: 0 auto 5px auto;
+}
+
+.map2_img_btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    text-align: center;
+    color: white;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.map2_img_btn:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.map2_ipt {
+    width: 400px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map2_btn {
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 8px 20px;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    display: block;
+}
+
+.map2_ipt input {
+    width: calc(100% - 80px);
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*map style end*/
+
+
+/*forum style start*/
+.forum_con {
+    width: 100%;
+    min-height: 100vh;
+    background: #2D2D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6vw 0;
+    overflow-x: hidden;
+}
+
+.forum_con_earth {
+    width: 60%;
+    position: relative;
+}
+
+.forum_text {
+    color: white;
+    font-family: "Rajdhani", serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.forum_icon1 {
+    width: 100px;
+    transition: all 0.3s;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.forum_icon1 img {
+    width: 30px;
+    margin: auto;
+}
+
+.forum_icon1:hover {
+    transform: scale(1.1);
+}
+
+.forum_icon2 {
+    width: 25px;
+    transition: all 0.3s;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.forum_icon3 {
+    width: 25px;
+    transition: all 0.3s;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
+.forum_icon4 {
+    width: 20px;
+    transition: all 0.3s;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+
+.forum_icon5 {
+    width: 20px;
+    transition: all 0.3s;
+    left: 15%;
+    top: 70%;
+    position: absolute;
+}
+
+.forum_icon6 {
+    width: 20px;
+    transition: all 0.3s;
+    left: 75%;
+    top: 80%;
+    position: absolute;
+}
+
+.forum_icon1 span {
+    font-family: "Rajdhani", serif;
+    color: white;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.forum_icon1:hover span {
+    opacity: 1;
+}
+
+.forum2_con {
+    width: 100%;
+    background: #2D2D2D;
+    padding: 5vw 0;
+}
+
+.forum2_con1 {
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+}
+
+.forum2_con1_img {
+    width: 100%;
+    margin-top: 2vw;
+    position: relative;
+}
+
+.forum2_con1_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Cinzel", serif !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.forum2_con2 {
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    padding: 4vw 0;
+}
+
+.forum2_con2_title {
+    color: white;
+    text-align: center;
+    font-family: "Rajdhani", serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.forum2_con2_text {
+    color: white;
+    text-align: center;
+    font-family: "Rajdhani", serif !important;
+    font-size: 18px;
+    margin: 2vw 0;
+}
+
+.forum2_con2_text_bg {
+    color: white;
+    text-align: center;
+    font-family: "Rajdhani", serif !important;
+    font-size: 24px;
+}
+
+.forum2_con2_text_bg span {
+    font-size: 18px;
+}
+
+.forum2_con3 {
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    padding: 4vw 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forum2_con3_left {
+    width: 70%;
+}
+
+.forum2_con3_right {
+    width: 150px;
+
+}
+
+.forum2_con3_right_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.forum2_con3_right_list > div {
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 10px 0;
+}
+
+.forum2_con3_right_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.2s;
+}
+
+.forum2_con3_right_list img:hover {
+    transform: scale(1.2);
+}
+
+.forum2_con3_add {
+    width: 40px !important;
+    height: 40px !important;
+    margin: auto;
+    cursor: pointer;
+}
+
+.forum2_con3_right_img_active {
+    transform: scale(1.2) !important;
+    border: 2px solid white;
+}
+
+/*forum style end*/
+
+/*login style start*/
+.login_con{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_box{
+    max-width: 1330px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.login_box>div{
+    width: 48%;
+}
+.login_box_left{
+    display: flex;
+    position: relative;
+}
+.login_box_left>div{
+    width: 50%;
+}
+.login_box_left_title{
+    color: white;
+    /*text-transform: uppercase;*/
+    font-family: "Cinzel", serif !important;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 150%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.login_box_left_des{
+    color: white;
+    font-family: "Rajdhani", serif !important;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.login_box_right{
+    background: #B4B4B4;
+    padding: 50px 40px;
+}
+.login_box_right input{
+    width: 100%;
+    height: 45px;
+    background: none;
+    /*border: none;*/
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+.login_box_right label{
+    font-family: "Rajdhani", serif !important;
+    font-size: 20px;
+}
+.login_box_right>div{
+    margin-bottom: 20px;
+}
+.check_ipt{
+    display: flex;
+    align-items: center;
+
+}
+.check_ipt input{
+    width: 25px !important;
+    height: 25px !important;
+    background: none !important;
+    margin-right: 10px;
+}
+.check_ipt label{
+    font-weight: 500;
+}
+.login_form_btn{
+    width: 50%;
+    padding: 10px 0;
+    background: #2D2D2D;
+    color: white;
+    font-family: "Rajdhani", serif !important;
+    font-size: 20px;
+    border: none;
+    margin:0 auto 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.login_form_btn:hover{
+    background: #1A1A1A;
+}
+.form_des{
+    font-family: "Rajdhani", serif !important;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+/*login style end*/
+.ourreprt_con{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+.ourreprt_box{
+    max-width: 1300px;
+    width: 95%;
+    color: white;
+    font-family: "Rajdhani", serif !important;
+    font-size: 18px;
+    margin: auto;
+}
