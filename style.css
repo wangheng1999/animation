@@ -93,3 +93,314 @@ img{
     width: 30px;
     margin: 10px auto 0 auto;
 }
+
+
+/**home page start**/
+header{
+    width: 100%;
+    padding: 20px 40px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", serif;
+}
+menu a{
+    margin: 0 10px;
+    font-size: 18px;
+}
+.logo{
+    font-family: "Cinzel", serif !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+.login{
+    border: 1px solid white;
+    padding: 8px 24px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.login:hover{
+    background: white;
+    color: black;
+}
+.line{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.map_con{
+    width: 100%;
+    background: black;
+    padding: 5vw 0;
+}
+.map_con1{
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 3vw 0;
+}
+.map_con1_img1{
+    width: 80px;
+    height: 520px;
+    background: url("./image/img2.png") no-repeat center;
+    background-size: cover;
+    transition: all 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map_con1_title{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif !important;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 150%;
+    overflow: hidden;
+    text-align: center;
+    width: 1300px;
+    white-space: nowrap;
+}
+.map_con1_img2{
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%,0);
+}
+.map_con2{
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    background: black;
+    padding: 3vw 0;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*position: relative;*/
+}
+.map_con2_text{
+    text-align: center;
+    color: white;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+}
+.map_con2_img{
+    width: 80px;
+    margin: 20px auto;
+}
+.map_con2_con{
+    width: 100%;
+    padding: 4vw 0;
+    background: #2D2D2D;
+}
+.map_title{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif !important;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 150%;
+    overflow: hidden;
+    text-align: center;
+    width: 1300px;
+    white-space: nowrap;
+}
+.map_con2_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.map_con2_btn{
+    border: 1px solid white;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+.map_con2_btn:hover{
+    background: white;
+    color: black;
+}
+.map_con2_img2{
+    width: 300px;
+    margin: 20px auto;
+}
+.map_con3{
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    background: black;
+    padding: 3vw 0;
+    position: relative;
+    overflow: hidden;
+}
+.map_con3_con1{
+    width: 550px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.map_con3_con1_title{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Cinzel", serif !important;
+    margin-bottom: 40px;
+}
+.map_con3_btn{
+    border: 2px solid white;
+    font-family: "Rajdhani", serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.map_con3_btn:hover{
+    background: white;
+    color: black;
+}
+.map_con3_con1_list{
+    position: absolute;
+    height: 10px;
+    background: white;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.map_con3_con2,.map_con3_con3{
+    position: absolute;
+    left: 50%;
+    top: 3vw;
+    width: 550px;
+    height: 700px;
+    background: #2D2D2D;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Cinzel", serif !important;
+    transition: all 0.6s;
+}
+.map_con3:hover .map_con3_con2{
+    left: 10%;
+    top: 10vw;
+    transform: translateX(-50%) rotate(-15deg);
+}
+.map_con3:hover .map_con3_con3{
+    left: 90%;
+    top: 10vw;
+    transform: translateX(-50%) rotate(15deg);
+}
+.map_con3_img1{
+    width: 300px;
+    margin: 60px auto 0 auto;
+}
+.map_con4{
+    max-width: 1300px;
+    margin: auto;
+    width: 95%;
+    background: black;
+    padding: 3vw 0;
+}
+.map_con4_con{
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 4vw;
+}
+.map_con4_list{
+    width: 300%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.map_con4_list>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.map_con4_list_left_text{
+    padding: 50px 30px;
+    color: #868686;
+    background: #2D2D2D;
+    font-family: "Cinzel", serif !important;
+    font-size: 18px;
+    width: 250px;
+}
+.map_con4_list_left_title{
+    font-size: 18px;
+    font-family: "Rajdhani", serif;
+    color: #999999;
+    margin-top: 10px;
+}
+.map_con4_list_right_text{
+    width: 200px;
+    color: #868686;
+    background: #2D2D2D;
+    font-family: "Cinzel", serif !important;
+    font-size: 18px;
+    padding: 10px;
+}
+.map_con4_list_right_des{
+    font-family: "Rajdhani", serif !important;
+    font-size: 16px;
+    color: #868686;
+    width: 500px;
+}
+.map_con4_btn{
+    border: 1px solid white;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+.map_con4_btn:hover{
+    background: white;
+    color: black;
+}
+.map_con4_img{
+    width: 300px;
+    margin: 3vw auto 0 auto;
+}
+footer{
+    background: #1A1A1A;
+    color: white;
+    font-family: "Rajdhani", serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0;
+}
+/**home page end**/
+
+
